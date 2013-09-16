@@ -6,7 +6,10 @@ export(
 # register S3 methods
 S3method(dma, default)
 S3method(logistic.dma, default)
+S3method(survival.dma, default)
 S3method(plot, dma)
 S3method(plot, logistic.dma)
+#S3method(plot, survival.dma)
 S3method(print, dma)
 S3method(print, logistic.dma)
+#S3method(print, survival.dma)
