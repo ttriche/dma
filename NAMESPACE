@@ -1,3 +1,4 @@
+import(survival)
 # export functions
 export(
 	dma,

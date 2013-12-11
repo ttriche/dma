@@ -1,5 +1,4 @@
-plot.survival.dma <-
-function(x, ...){
+plot.survival.dma <- function(x, ...){
   par(mfrow=c(1,2))
   matplot(t(x$pmp),main="Posterior model probabilities",col=1:nrow(x$pmp),
           ylab="Posterior model probability",xlab="Index",type='l')

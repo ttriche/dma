@@ -1,13 +1,14 @@
 Package: dma
 Type: Package
 Title: Dynamic model averaging
-Version: 1.2-3
-Date: 2013-09-19
-Author: Tyler H. McCormick, Adrian Raftery, David Madigan
+Version: 1.2.4
+Date: 2013-12-11
+Author: Tyler H. McCormick, Adrian Raftery, David Madigan, Timothy J. Triche Jr.
 Maintainer: Hana Sevcikova <hanas@uw.edu>
 Description: Dynamic model averaging for binary and continuous
         outcomes.
-Suggests: MASS, mnormt, gputools, Rcpp
+Depends: survival
+Suggests: MASS, mnormt, RcppEigen
 License: GPL-2
 LazyLoad: yes
 NeedsCompilation: no

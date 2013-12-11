@@ -1,5 +1,4 @@
-print.survival.dma <-
-  function(x, ...){
+print.survival.dma <- function(x, ...){
     cat("Models:\n") 
     mattmp<-x$models
     ltmp<-"Model 1"
